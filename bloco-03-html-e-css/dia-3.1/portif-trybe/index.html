@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifolio</title>
+    <link rel="stylesheet" href="/css/tagEstruturaBasica.css">  
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body class="cor-padrao-fundo-empresa-01">
+
+    <!--REFATORANDO O PORTIFÓLIO COLOCANDO HTML SEMANTICO-->
+
+    <!--HTML Semantic-->
+
+
+    <!--Defining the page header with the Header tag-->
+    <header class="container-img-texto">
+
+        <img class="img-trybe-portifolio-cabecalho-tamanho" src="/img/fundo02.jpeg" alt="foto do portifolio"
+            name="tonis">
+        <!--despite not having navigation links, its location is explicit at this point.-->
+        <section>
+            <img class="img-perfil" src="/img/perfilGit.png" alt="foto do portifolio" id="img-perfil">
+            <p class="texto-descricao-foto">work photo </p>
+
+        </section>
+        <!--Using an H1 for the CENTRAL THEME of my Document-->
+        <h1 class="personaliza-nome-portifolio"> Portifólio</h1>
+
+    </header>
+
+
+
+    <!--Utilizando a tag main-->
+    <main>
+
+        <!--SECTION ONDE IRÁ CONTER OS  DADOS PESSOAIS -->
+
+        <section class="dados-pessoais" id="descricao-studente">
+
+            <!--Divs-->
+            <div class="restante-dados-pessoais">
+
+                <!--Estilo Próprio-->
+                <strong class="student-developer">Student Developer Full Stack</strong><br />
+
+                <!--Estilizando meu nome a pedido do exercicio-->
+                <strong class="estilizando-meu-nome">Name:Tonis Alberto Torres Ferreira</strong> <br>
+
+                <div class="section-descriacao">
+
+                    <p>Tecnólogo por definição sou apaixonado por linguagens de máquinas e busco aperfeiçoar e me
+                        reciclar constantemente. </p>
+
+                    <p>Fazendo curso, lendo artigos, me relacionando com profissionais experientes, colegas de
+                        faculdade, professores etc. </p>
+
+                    <p><em class="destaque-de-texto-requisito-pedido">Brasileiro</em>, <em
+                            class="destaque-de-texto-requisito-pedido">maranhese</em> resido atualmente na cidade de <em
+                            class="destaque-de-texto-requisito-pedido">Alto Alegre do
+                            Maranhão.</em></p>
+                </div>
+
+            </div>
+
+            <!--SEÇÃO QUE IRÁ CONTER AS HABILIDADES DE SOFT SKILLS-->
+
+            <section class="lista-habilidades" id="soft-skills">
+                <!--Bem aqui como tem navegabilidade Links que irão direcionar o usuário para alguma parte do documento 
+                bem a tag semantica que representa bem esse caso é NAV-->
+
+                <nav class="lista-habilidades-indetar-nomes">
+
+                    <!--Um subtitulo dentro da seção faz todo sentido representá-lo por uma tag H3-->
+                    <h2 class="nomes-de-destaques">Soft Skills:</h2>
+
+                    <ul>
+                        <li class="assetividade">Assertividade</li>
+                        <li class="flexibilidade">Flexibilidade</li>
+                        <li class="tomada-de-risco">Toamada de Risco</li>
+                        <li class="reflexao">Reflexão</li>
+                        <li class="pensamento-conceitual">Pensamento Conceitual</li>
+                        <li class="pensamento-criativo">Pensamento Criativo</li>
+                        <li class="consideracao-pelos-outros">Consideraçao Pelos Outros</li>
+                        <li class="sociabilidade">Sociabilidade</li>
+                        <li class="estabilidade-emocional">Estabilidade Emocional</li>
+                        <li class="ambicao"> Ambição</li>
+
+                    </ul>
+                </nav>
+
+            </section>
+
+
+        </section>
+
+        <!--SEÇÃO CONTAINER -->
+
+        <section class="container-links" id="links-internos-externos">
+
+            <div class="hiperlinks-internos-externo">
+
+                <!--Classe nomes-de-destaque Títulos-->
+                <strong class="nomes-de-destaques"> links </strong><br />
+
+                <!--Já que existe links e que irão fazer acessso a partes internas ou externas do site faz todo sentido colcá-las dentro de uma Tag nav-->
+                <nav class="organizar-links">
+                    <li> <a href="#img-perfil">link Internol - Foto Portifólio</a> </li><br>
+                    <li><a href="https://blog.betrybe.com/tecnologia" target="_blank"> Link Externo - Blog Trybe</a>
+                    </li>
+                </nav>
+
+            </div>
+
+            <div class="container-sumario-links">
+
+                <div class="sumario-links-internos">
+
+                    <!--Classe nomes-de-destaque Títulos-->
+                    <strong class="nomes-de-destaques">Índice </strong><br />
+                    <!--Já que existe links e que irão fazer acessso a partes internas ou externas do site faz todo sentido colcá-las dentro de uma Tag nav-->
+                    <nav>
+                        <li><a href="#descricao-studente">Seção Sobre Estudante</a> <br></li>
+                        <li><a href="#links-internos-externos">Seção de Links </a> <br></li>
+                        <li><a href="#soft-skills">Seção de Soft Skills </a> <br></li>
+                    </nav>
+
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+    <!--fim do main -->
+
+    <!--SEÇÃO RODAPÉ -->
+    <footer class="container-footer">
+
+        <!--Já que existe links e que irão fazer acessso a partes internas ou externas do site faz todo sentido colcá-las dentro de uma Tag nav-->
+
+        <nav>
+
+            
+            <a href="https://www.betrybe.com/" target="_blank">
+
+                <img class="img-personaliza-dentro-container-footer-trybe" src="img/trybeFundoTransparente.png "
+                    alt="trybe foto">
+            </a>
+
+
+            <a href="https://www.linkedin.com/in/tonistorrestrybe/" target="_blank"> <img
+                    class="img-personaliza-dentro-container-footer-linkedin" src="img/linkedinFundoTranparente.jpg"
+                    alt="Linkedin foto">
+            </a>
+
+
+
+            <a href="https://github.com/tonistorres" target="_blank">
+                <img class="img-personaliza-dentro-container-footer-github" src="img/gitFundoTransparente.jpg"
+                    alt="github foto">
+            </a>
+
+
+
+            <a href="https://www.instagram.com/tonistorrestrybe/" target="_blank">
+                <img class="img-personaliza-dentro-container-footer-instagram" src="img/instagramFundoTransparente.jpg"
+                    alt="Instagram foto">
+            </a>
+
+
+            <a href="https://www.facebook.com/datorres.ferreira" target="_blank">
+
+                <img class="img-personaliza-dentro-container-footer-face" src="img/faceFundoTransparente.png "
+                    alt="facebook foto">
+            </a>
+
+        </nav>
+    </footer>
+
+</body>
+
+</html>
