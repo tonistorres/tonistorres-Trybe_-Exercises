@@ -1,0 +1,7 @@
+O que eu vou aprender na Trybe:
+
+- Unix
+- Bash
+- Gitagora entendi adicionando pela branch trybe-entendido
+node
+react
