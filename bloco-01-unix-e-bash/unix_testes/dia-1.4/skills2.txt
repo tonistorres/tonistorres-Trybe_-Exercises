@@ -1,0 +1,8 @@
+Internet
+Unix
+Bash
+SQL
+JavaSE
+JavaScript
+git 
+gitHub
