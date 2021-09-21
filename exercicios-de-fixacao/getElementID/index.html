@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estudando DOM </title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h2 id="page-title" onmouseover="capturandoValorPaginaHtml()">MANIPULANDO O DOM</h2>
+        <button id="botao" type="button">Click Me!</button>
+    </header>
+    <section>
+        <p id="paragraph">Dê uma cor para este parágrafo!<button type="button"
+                onclick="buttonColorParagraph()">Click!</button></p>
+        <h4 id="subtitle" onmouseover="usingIdelements()">Subtítulo</h4>
+        <p id="second-paragraph" onmouseover="secondParagraphOnMouseOver()">Segundo parágrafo!</p>
+        <p class="p-familia" onmouseover="behaviorListPFamily()"> Maria</p>
+        <p class="p-familia">Gerlande </p>
+        <p class="p-familia">Tonis </p>
+
+        <p class="fundo-sections"> <button type="button" onclick="recoverParagraph()" Clik Aqui !! Adicione as Classes>
+                no RESULTADO DA CAPTURA </button></p>
+        <div class="a-class">Adicione Classe 1- Elemento Estático</div>
+        <div class="a-class">Adicione Classe 2- Elemento Estático</div>
+        <p class="fundo-sections">RESULTADO DA CAPTURA</p>
+        <div class="result">Resultado</div>
+        <div class="result">Resultado</div>
+    </section>
+    <script src="js/getElement.js"></script>
+</body>
+</html>
