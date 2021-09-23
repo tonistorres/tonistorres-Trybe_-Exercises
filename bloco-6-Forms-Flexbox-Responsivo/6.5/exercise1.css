@@ -1,0 +1,156 @@
+           /*Configuração incial Dispositivo Celular - Princípio de Mobile First*/
+           
+           body {
+               background-color: white;
+               font-family: 'Anton', sans-serif;
+           }
+           
+           header {
+               display: flex;
+               justify-content: center;
+               margin-top: 10%;
+               background-color: #28589c;
+           }
+           
+           h1 {
+               color: white;
+               font-size: 30px;
+               font-family: 'Anton', sans-serif;
+           }
+           
+           section {
+               font-size: 25px;
+               line-height: 35px;
+               padding: 5px 20px;
+               text-align: justify;
+           }
+           
+           p {
+               display: flex;
+               flex-flow: row wrap;
+               justify-content: space-around;
+           }
+           
+           main {
+               align-items: center;
+               background-color: #28589c;
+               display: flex;
+               flex-direction: column;
+               justify-content: center;
+               padding: 10px 10px;
+           }
+           
+           h2 {
+               text-align: center;
+               font-size: 32px;
+               letter-spacing: 0.3em;
+               color: white;
+           }
+           
+           figure {
+               font-size: 25px;
+               margin: 0;
+               padding: 10px 10px;
+           }
+           
+           img {
+               max-width: 100%;
+           }
+           
+           figcaption {
+               display: flex;
+               font-size: 28px;
+               font-weight: 700;
+               justify-content: center;
+               margin-top: 10px;
+               color: white;
+           }
+           /* 
+           Após 401px execurar o media query abaixo- Personalizar Como 
+           se Fosse um Tema do Instagram 1
+           */
+           
+           @media only screen and (min-width:401px) {
+               body {
+                   background-color: #F8F8FF;
+               }
+               header {
+                   background-color: #E1306C;
+               }
+               h1 {
+                   font-size: 35px;
+               }
+               p {
+                   font-size: 28px;
+               }
+               main {
+                   background-color: #C13584;
+               }
+               h2 {
+                   font-size: 37px;
+                   font-weight: 900;
+               }
+               figcaption {
+                   font-size: 34px;
+                   font-weight: 800;
+               }
+           }
+           /* 
+           Após 498px execurar o media query abaixo- Personalizar Como 
+           se Fosse um Tema do Instagram 2 
+           */
+           
+           @media only screen and (min-width:498px) {
+               body {
+                   background-color: #F8F8FF;
+               }
+               header {
+                   background-color: #5851DB;
+               }
+               h1 {
+                   font-size: 40px;
+               }
+               p {
+                   font-size: 34px;
+               }
+               main {
+                   background-color: #5851DB;
+               }
+               h2 {
+                   font-size: 40px;
+                   font-weight: 900;
+               }
+               figcaption {
+                   font-size: 38px;
+                   font-weight: 800;
+               }
+           }
+           /*Após 540px execurar o media query abaixo- Personalizar Como 
+           se Fosse um Tema do twitter 
+           */
+           
+           @media only screen and (min-width:498px) {
+               body {
+                   background-color: #F8F8FF;
+               }
+               header {
+                   background-color: #2bc4ff;
+               }
+               h1 {
+                   font-size: 40px;
+               }
+               p {
+                   font-size: 34px;
+               }
+               main {
+                   background-color: #2bc4ff;
+               }
+               h2 {
+                   font-size: 40px;
+                   font-weight: 900;
+               }
+               figcaption {
+                   font-size: 38px;
+                   font-weight: 800;
+               }
+           }
