@@ -1,0 +1,4 @@
+{
+    "javascript.inlayHints.variableTypes.enabled": true,
+    "editor.inlayHints.enabled": false
+}
