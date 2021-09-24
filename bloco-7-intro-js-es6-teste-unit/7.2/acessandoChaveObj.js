@@ -15,6 +15,7 @@ const coolestTvShow = {
 };
 
 //listando os valores das chaves
+//https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_state_forin
 for (const key in coolestTvShow) {
     console.log(coolestTvShow[key]);
 }
