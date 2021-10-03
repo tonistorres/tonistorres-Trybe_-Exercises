@@ -1,1 +1,0 @@
-O exercicio foi feito um fork e ele esta no container exercise-tech-gallery 

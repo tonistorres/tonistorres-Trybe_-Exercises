@@ -1,1 +1,0 @@
-Neste bolco iremos aprender o Funcionamento do Sistema Operacional Unix e a iteração do usuário via linha de comando.
