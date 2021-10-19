@@ -1,0 +1,36 @@
+h1 {
+    text-align: center;
+}
+
+ul {
+    color: black;
+    border: 1px solid black;
+    background-color: yellow;
+    display: inline;
+}
+
+#container-main {
+    background-color: #036b52;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.container-ul {
+    display: flex;
+
+}
+
+.container-id {
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    padding: 3px 10px;
+}
+
+.container-name {
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    padding: 3px 10px;
+}
