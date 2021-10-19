@@ -23,13 +23,14 @@ const fetchJoke = () => {
     // cumprido: significa que a operação foi concluída com sucesso. Utilizamos o método then se tudo ocorreu bem
     // rejeitado: significa que a operação falhou. Utilizamos o método de captura de erro catch
     //*************************************************************************************************** */
-    fetch(API_URL, myObject) // nesse ponto recebemos como resposta uma promisse 
+    fetch(API_URL, myObject) // nesse ponto recebemos como resposta uma promisse RESPOSTA BRUTA COM TODOS OS DADOS 
+                            //  AULA AO VIVO 9.2 Tribo -B Apartir de 42min
         .then(response => response.json()) // Então quando eu receber o resultado positiovo irei usar o método
-        // json na resposta da api que irá converter o conteúdo body da resposta e retornar uma outra promisse
-        // que, quando, bem sucedida retorna um joson contendo as informações 
-        // da piada.    
-        .then(data => console.log(data)); // aqui temos o dados da promisse da promisse e finalmente o conteudo 
-                                         // json   
+        // json() e extrair de DENTRO DA RESPOSTA BRUTA ou seja do arquivo com json mais outras informações adicionais somente o json que é o que queremos trabalhar no javaScript. Daí recebemos uma outra promessa de tudo que acabei de falar rsrsrs então sim recebemos uma outra promessa kkk     
+        .then(data => console.log(data)); // aqui eu tenho a promessa de que irei receber os dados já polido ou 
+                                          // seja, o arquivo json lindo maravilhoso para eu fazer daqui pra frente
+                                          // a brincadeira que eu quiser srs
+
 };
 
 window.onload = () => fetchJoke();
