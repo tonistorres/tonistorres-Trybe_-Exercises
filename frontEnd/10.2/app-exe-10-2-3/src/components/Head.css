@@ -1,0 +1,32 @@
+.App-style-head-custom {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: #036b52;
+
+}
+
+.App-style-nav {
+    width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.App-container-img {
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    height: 60px;
+}
+
+.App-logo-trybe {
+    width: 100%;
+
+}
+
+h1{
+    color: white;
+    font-size: 28px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

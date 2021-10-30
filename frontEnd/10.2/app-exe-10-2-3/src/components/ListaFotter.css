@@ -1,0 +1,13 @@
+
+.style-list-fotter{
+    color:#2fc18c;
+    display: flex;
+    font-size: 20px;
+    font-weight: 600;
+    flex-wrap: wrap;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    justify-content: space-around;
+    padding-left: 40px;
+    
+
+}
