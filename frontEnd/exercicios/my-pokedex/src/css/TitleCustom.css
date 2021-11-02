@@ -1,0 +1,12 @@
+
+.style-title-custom{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #036b52;
+    font-size: 45px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+
+}
