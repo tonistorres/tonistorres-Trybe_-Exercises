@@ -1,0 +1,16 @@
+:root{
+  --cor-primaria:#66D3F3;
+  --cor-secundaria: #191F26;
+}
+
+
+.App-style-fotter-custom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    background-color:var(--cor-secundaria);
+    border: 2px solid var(--cor-primaria);
+  }
+  
