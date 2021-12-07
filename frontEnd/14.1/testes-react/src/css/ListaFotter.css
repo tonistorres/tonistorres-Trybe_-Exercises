@@ -1,0 +1,17 @@
+:root{
+    --cor-primaria:#66D3F3;
+    --cor-secundaria: #191F26;
+  }
+  
+.style-list-fotter{
+    color:var(--cor-primaria);
+    display: flex;
+    font-size: 20px;
+    font-weight: 600;
+    flex-wrap: wrap;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    justify-content: space-around;
+    padding-left: 40px;
+    
+
+}

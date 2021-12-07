@@ -2,12 +2,7 @@
     import React from 'react';
 
     class App extends React.Component {
-      constructor() {
-        super();
-        this.handleButtonOne = this.handleButtonOne.bind(this);
-        this.handleButtonTwo = this.handleButtonTwo.bind(this);
-        this.handleButtonThree = this.handleButtonThree.bind(this);
-      }
+      
 
       handleButtonOne() {
         console.log('"this" do botão 1 :', this);
